@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQ Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Image/Main/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/02Menu_style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <header><img src="./Image/Main/logo.png" alt="Logo" width="60" height="60">
+            <h1>Sandwich <span class="wrap">Queen</span></h1>
+        </header>
+        <nav>
+            <ul class="navBar">
+                <li><a href="01Home.html">Home</a></li>
+                <li><a href="05Promotions.html">Promotions</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn hover up">More &#x25BC;</button>
+                        <div class="dropdown-content">
+                            <a href="04AboutUs.html">About Us</a>
+                            <a href="01Home.html#Location">Outlet's Location</a>
+                            <a href="07ContactUs.html">Contact Us</a>
+                            <a href="01Home.html#Feedbacks">Customer Feedbacks</a>
+                            <a href="03Career.html">Career</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="login">
+            <ul>
+                <li><a href="08LogIn.html">Log In</a></li>
+                <p>|</p> &nbsp;
+                <li><a href="#" id="Order">Order Now</a></li>
+            </ul>
+        </div>
+    </div>
+    <a href="#" class="topArrow">
+        <div class="to-top">
+            <h1>&#10506;</h1>
+        </div>
+    </a>
+    <main>
+        <section class="sideBar">
+            <div class="sideContent">
+                <h1 class="up">Menu</h1>
+                <ul>
+                    <li><img src="./Image/Menu/Flame.png" width="50" height="50"><a href="#topPick"
+                            class="up nobreak">&nbsp;Top
+                            Picks</a>
+                    </li>
+                    <li><img src="./Image/Menu/Clock.png" width="50" height="50"><a href="#seasonal"
+                            class="up nobreak">&nbsp;Seasonal</a></li>
+                    <li><img src="./Image/Menu/Vegan.png" width="50" height="50"> <a href="#vegan"
+                            class="up nobreak">&nbsp;Veggie Specials</a>
+                    </li>
+                    <li><img src="./Image/Menu/Cheese.png" width="50" height="50"><a href="#cheese"
+                            class="up nobreak">&nbsp;Cheesy Delight</a>
+                    </li>
+                    <li><img src="./Image/Menu/Meat.png" width="50" height="50"><a href="#meat"
+                            class="up nobreak">&nbsp;Meat
+                            Lover</a>
+                    </li>
+                    <li><img src="./Image/Menu/snack.png" width="50" height="50"><a href="#snack"
+                            class="up nobreak">&nbsp;Sides & Snacks</a>
+                    </li>
+                    <li><img src="./Image/Menu/drink.png" width="50" height="50"><a href="#drink"
+                            class="up nobreak">&nbsp;Beverages</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="mainArea">
+            <section class="topBar">
+                <div class="location">
+                    <select name="Restaurant">
+                        <option value=" ">📍 LOCATION</option>
+                        <option value="B">Bangsar</option>
+                        <option value="BB">Bukit Bintang</option>
+                        <option value="G">Gombak</option>
+                        <option value="J">Jalan Tun Razak</option>
+                        <option value="K">KL Sentral</option>
+                    </select>
+                    <input type="submit" name="submit" value="Delivery" class="hover">
+                    <input type="submit" name="submit" value="Pick Up" class="hover">
+                </div>
+                <h1 class="orange">&#9788;</h1>
+                <h3 class="top status">Outlet Status</h3>
+                <h3 class="top schedule">Schedule</h3>
+                <h3 class="box up orange"> open </h3>
+                <select name="Restaurant" class="box up">
+                    <option value="A">asap</option>
+                    <option value="M">morning</option>
+                    <option value="AN">afternoon</option>
+                    <option value="N">night</option>
+                </select>
+            </section>
+            <section class="mainMenu">
+                <article id="topPick">
+                    <h1 class="title clip">Top Picks</h1>
+                    <div class="cardHolder">
+                        <div class="card"><img src="./Image/Menu/topSandwich1.jpg" width="200" height="200" class="img"
+                                alt="Chicken Sandwich">
+                            <h1 class="name nobreak">Chicken Sandwich</h1>
+                            <h1 class="price">RM 4.00</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/topSandwich2.jpg" width="200" height="200" class="img"
+                                alt="Tomato Beef Sandwich">
+                            <h1 class="name nobreak">Tomato Beef Sandwich</h1>
+                            <h1 class="price">RM 5.00</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/topSandwich3.jpg" width="200" height="200" class="img"
+                                alt="Spicy Chicken Sandwich">
+                            <h1 class="name nobreak">Spicy Chicken Sandwich</h1>
+                            <h1 class="price">RM 5.50</h1>
+                            <h1 class="alg chili"><i class="fa-solid fa-pepper-hot"></i></h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </article>
+                <br>
+                <article id="seasonal">
+                    <h1 class="title clip">Seasonal</h1>
+                    <span style="color: orangered;">These items are limited for Autumn 2024</span>
+                    <br>
+                    <br>
+                    <div class="cardHolder">
+                        <div class="card"><img src="./Image/Menu/seasonalSandwich1.jpg" width="200" height="200"
+                                class="img" alt="Turkey Sandwich">
+                            <h1 class="name nobreak">Turkey Sandwich</h1>
+                            <h1 class="price">RM 6.50</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/seasonalSandwich2.jpg" width="200" height="200"
+                                class="img" alt="Spice Veggie Wrap">
+                            <h1 class="name nobreak">Spice Veggie Wrap</h1>
+                            <h1 class="price">RM 5.50</h1>
+                            <h1 class="alg chili"><i class="fa-solid fa-pepper-hot"></i></h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </article>
+                <br>
+                <article id="vegan">
+                    <h1 class="title clip">Veggie Specials</h1>
+                    <div class="cardHolder">
+                        <div class="card"><img src="./Image/Menu/vegan1.jpg" width="200" height="200" class="img"
+                                alt="Avocado Veggie Dream">
+                            <h1 class="name nobreak">Avocado Veggie Dream</h1>
+                            <h1 class="price">RM 4.50</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/vegan2.jpg" width="200" height="200" class="img"
+                                alt="Grilled Vaggie Medley">
+                            <h1 class="name nobreak">Grilled Veggie Medley</h1>
+                            <h1 class="price">RM 5.00</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/vegan3.jpg" width="200" height="200" class="img"
+                                alt="Mediterranean Veg Pita">
+                            <h1 class="name nobreak">Mediterranean Veg Pita</h1>
+                            <h1 class="price">RM 5.50</h1>
+                            <h1 class="alg egg"><i class="fa-solid fa-egg"></i></h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </article>
+                <br>
+                <article id="cheese">
+                    <h1 class="title clip">Cheesy Delight</h1>
+                    <div class="cardHolder">
+                        <div class="card"><img src="./Image/Menu/cheeseSandwich1.jpg" width="200" height="200"
+                                class="img" alt="Ultimate Cheese Melt">
+                            <h1 class="name nobreak">Ultimate Cheese Melt</h1>
+                            <h1 class="price">RM 4.00</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/cheeseSandwich2.jpg" width="200" height="200"
+                                class="img" alt="Cheese&Chicken Crunch">
+                            <h1 class="name nobreak">Cheese&Chicken Crunch</h1>
+                            <h1 class="price">RM 5.50</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/cheeseSandwich3.jpg" width="200" height="200"
+                                class="img" alt="Truffle Grilled Cheese">
+                            <h1 class="name nobreak">Truffle Grilled Cheese</h1>
+                            <h1 class="price">RM 6.00</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </article>
+                <br>
+                <article id="meat">
+                    <h1 class="title clip">Meat Lover</h1>
+                    <div class="cardHolder">
+                        <div class="card"><img src="./Image/Menu/meat1.jpg" width="200" height="200" class="img"
+                                alt="Bacon & Beef Slam">
+                            <h1 class="name nobreak">Bacon & Beef Slam</h1>
+                            <h1 class="price">RM 6.00</h1>
+                            <h1 class="alg chili"><i class="fa-solid fa-pepper-hot"></i></h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/meat2.jpg" width="200" height="200" class="img"
+                                alt="Double Meat Deluxe">
+                            <h1 class="name nobreak">Double Meat Deluxe</h1>
+                            <h1 class="price">RM 7.00</h1>
+                            <h1 class="alg egg"><i class="fa-solid fa-egg"></i></h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </article>
+                <br>
+                <article id="snack">
+                    <h1 class="title clip">Sides & Snacks</h1>
+                    <div class="cardHolder">
+                        <div class="card"><img src="./Image/Menu/snack1.jpg" width="200" height="200" class="img"
+                                alt="Crispy Fries">
+                            <h1 class="name nobreak">Crispy Fries</h1>
+                            <h1 class="price">RM 2.00</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/snack2.jpg" width="200" height="200" class="img"
+                                alt="Onion Rings">
+                            <h1 class="name nobreak">Onion Rings</h1>
+                            <h1 class="price">RM 2.50</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </article>
+                <br>
+                <article id="drink">
+                    <h1 class="title clip">Beverages</h1>
+                    <div class="cardHolder">
+                        <div class="card"><img src="./Image/Menu/drink1.jpg" width="200" height="200" class="img"
+                                alt="Soft Drinks">
+                            <h1 class="name nobreak">Soft Drinks</h1>
+                            <h1 class="price">RM 1.50</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/drink2.jpg" width="200" height="200" class="img"
+                                alt="Tea">
+                            <h1 class="name nobreak">Tea</h1>
+                            <h1 class="price">RM 2.00</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More</li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                        <div class="card"><img src="./Image/Menu/drink3.jpg" width="200" height="200" class="img"
+                                alt="Coffee">
+                            <h1 class="name nobreak">Coffee</h1>
+                            <h1 class="price">RM 2.50</h1>
+                            <details>
+                                <summary>
+                                    <h1 class="dot hover">&#8942;</h1>
+                                </summary>
+                                <ul>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add to Cart
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;See More
+                                        </li>
+                                    </a>
+                                    <a href="">
+                                        <li class="info"><i class="fa-solid fa-question"></i>&nbsp;Question</li>
+                                    </a>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <h1>FOLLOW US</h1>
+        <div class="social">
+
+            <a href="#" target="_blank" style="color: white; font-size: var(--FS-XXL);"><i
+                    class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" target="_blank" style="color: white; font-size: var(--FS-XXL);"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank" style="color: white; font-size: var(--FS-XXL);"><i
+                    class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#" target="_blank" style="color: white; font-size: var(--FS-XXL);"><i
+                    class="fa-brands fa-square-youtube"></i></a>
+            <a href="#" target="_blank" style="color: white; font-size: var(--FS-XXL);"><i
+                    class="fa-brands fa-tiktok"></i></a>
+
+        </div>
+    </footer>
+</body>
+
+</html>
