@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sandwich Queen</title>
+	<link rel="icon" type="image/x-icon" href="./Css/Image/logo.png">
+	<link rel="stylesheet" href="./Css/09SignUp_style.css">
+</head>
+
+<body>
+	<div class="menu">
+		<header><img src="./Image/Main/logo.png" alt="Logo" width="60px" height="60px">
+			<h1>Sandwich Queen</h1>
+		</header>
+		<nav>
+			<ul class="navBar">
+				<li><a href="01Home.html">Home</a></li>
+				<li><a href="02Menu.html">Menu</a></li>
+				<li><a href="05Promotions.html">Promotions</a></li>
+				<li>
+					<div class="dropdown">
+						<button class="dropbtn hover">More &#x25BC;</button>
+						<div class="dropdown-content">
+							<a href="04AboutUs.html">About Us</a>
+							<a href="01Home.html#Location">Outlet's Location</a>
+							<a href="07ContactUs.html">Contact Us</a>
+							<a href="01Home.html#Feedbacks">Customer Feedbacks</a>
+							<a href="03Career.html">Career</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<div class="login">
+			<ul>
+				<li><a href="08LogIn.html">Log In</a></li>
+				<p>|</p> &nbsp;
+				<li><a href="02Menu.html" id="Order">Order Now</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="logo"><img src="./Image/Main/logo.png" width="180px" height="180px">
+		<h1>Welcome to Sign Up!</h1>
+	</div>
+
+	<form method="GET" action="response.html" onsubmit="submittedAlert()">
+		<div class="select">
+			<h1><a href="08LogIn.html">Log in</a></h1>
+			<h1><a href="09SignUp.html" class="active">Sign up</a></h1>
+		</div>
+		<hr>
+		<input type="text" name="name" placeholder="Name" required>
+		<br>
+		<input type="email" name="email" placeholder="Email" required>
+		<br>
+		<input type="tel" name="contactNumber" placeholder="Contact Number" required>
+		<br>
+		<input type="password" name="password" placeholder="Password" required>
+		<br>
+		<input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+		<br><br>
+		<div class="policy">
+			<input type="checkbox" value="Y" name="message">Sandwich Queen can send me information or contact me
+			regarding Sandwich
+			Queen products and service
+			<br><br>
+			<input type="checkbox" value="Y" name="Privacy" required>I agree to the<a href="#">Privacy
+				and Personal Data Protection Policy
+				<br><br>
+		</div>
+		<input type="submit" value="Sign Up" name="S">
+		<br>
+	</form>
+	<script>
+		function submittedAlert() {
+			alert('You have successfully submitted !');
+		}
+	</script>
+</body>
+
+</html>
